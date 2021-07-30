@@ -3,11 +3,19 @@
 //#Remove
 //Don't touch me!
 //#Add
+
+recipes.addShaped(<artisanworktables:worktable:5>, [
+[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>],
+[<ore:stickWood>, <ore:craftingTableWood>, <ore:stickWood>], 
+[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]
+]);
+
 recipes.addShaped(<gvcr2:gvcr2_item_scrap>, [
 [<ore:nuggetIron>, <minecraft:iron_ingot>, <ore:nuggetIron>],
 [<minecraft:iron_ingot>, <ore:nuggetIron>, <minecraft:iron_ingot>], 
 [<ore:nuggetIron>, <minecraft:iron_ingot>, <ore:nuggetIron>]
 ]);
+
 recipes.addShaped(<tconstruct:materials:14>, [[<twilightforest:giant_obsidian>, <twilightforest:giant_obsidian>, <twilightforest:giant_obsidian>],[<twilightforest:giant_obsidian>, <ore:cast>, <twilightforest:giant_obsidian>], [<twilightforest:giant_obsidian>, <twilightforest:giant_obsidian>, <twilightforest:giant_obsidian>]]);
 recipes.addShapeless(<contenttweaker:kamesteel>, [<contenttweaker:nugget_kamesteel>,<contenttweaker:nugget_kamesteel>,<contenttweaker:nugget_kamesteel>,<contenttweaker:nugget_kamesteel>,<contenttweaker:nugget_kamesteel>,<contenttweaker:nugget_kamesteel>,<contenttweaker:nugget_kamesteel>,<contenttweaker:nugget_kamesteel>,<contenttweaker:nugget_kamesteel>]);
 recipes.addShapeless(<contenttweaker:nugget_kamesteel> * 9, [<contenttweaker:kamesteel>]);
