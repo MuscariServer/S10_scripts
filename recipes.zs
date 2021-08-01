@@ -4,6 +4,12 @@
 //Don't touch me!
 //#Add
 
+recipes.addShaped(<artisanworktables:workstation:5>, [
+[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>],
+[<ore:stickWood>, <artisanworktables:worktable:5>, 
+<ore:stickWood>], [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]
+]);
+
 recipes.addShaped(<artisanworktables:worktable:5>, [
 [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>],
 [<ore:stickWood>, <ore:craftingTableWood>, <ore:stickWood>], 
